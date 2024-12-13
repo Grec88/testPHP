@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.header__title {
+  text-align: center;
+  margin-top: 20px;
+  color: #4CAF50;
+}
+
+.task-list__title {
+  text-align: center;
+  margin-top: 30px;
+  color: #333;
+}
+
+.task-form__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.task-form__input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.task-form__button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-form__button:hover {
+  background-color: #45a049;
+}
+
+.task-list__items {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f4f4f4;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-list__item.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.task-list__form {
+  margin: 0;
+}
+
+.task-list__checkbox {
+  transform: scale(1.2);
+  margin-right: 10px;
+}
+
+.task-list__delete-button {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #e74c3c;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-list__delete-button:hover {
+  background-color: #c0392b;
+}
